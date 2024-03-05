@@ -10,7 +10,7 @@ jobs:
   build:
     strategy:
       matrix:
-        directory: [ upload-s3-file/ ]
+        directory: [ upload-s3-file/, download-s3-file/]
 
     runs-on: ubuntu-latest
 
