@@ -22,6 +22,7 @@ to do it move to some example folder like `upload-s3-file` and execute
 ## Features
 
 Upload a file to s3 [upload-s3-file](upload-s3-file)
+Download a file from s3 [download-s3-file](download-s3-file)
 
 ## Getting Started
 
@@ -67,8 +68,8 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 A first draft of roadmap will include:
 
-- Upload S3 file
-- Download S3 file
+- Upload S3 file ✅
+- Download S3 file ✅
 - Obtain pre-signed url S3 file
 - Publish message to SNS
 - Receive message from SQS

@@ -24,7 +24,7 @@ import kotlin.test.assertTrue
 @Testcontainers
 class DownloadFileIntegrationTest {
     @Test
-    fun `should upload file successfully`() {
+    fun `should download file successfully`() {
         val s3Endpoint = localstack.getEndpointOverride(LocalStackContainer.Service.S3)
         `given there is a uploaded file in`("file.txt", s3Endpoint)
         val result =
