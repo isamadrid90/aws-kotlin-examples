@@ -16,15 +16,10 @@ repositories {
 
 dependencies {
     implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
-    implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    implementation("com.diffplug.spotless:spotless-plugin-gradle:6.22.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
-    implementation("org.slf4j:slf4j-api:2.0.9")
     implementation("aws.sdk.kotlin:s3:1.0.0")
     implementation("aws.sdk.kotlin:aws-core:1.0.24")
-
-    testImplementation("org.slf4j:slf4j-simple:2.0.9")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     testImplementation("io.mockk:mockk:1.13.8")
     testImplementation("org.testcontainers:localstack:1.19.3")
