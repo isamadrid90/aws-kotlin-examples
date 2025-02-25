@@ -6,7 +6,7 @@ plugins {
     application
 }
 
-group = "com.codely"
+group = "com.isamadrid90.aws.demo"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_17
 
